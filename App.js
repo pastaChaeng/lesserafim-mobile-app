@@ -138,7 +138,10 @@ export default function LesserafimApp() {
           </View>   
         </ScrollView>
       </View>
-     
+      <View style={styles.footer}>
+        <Text style={styles.footerText}>© 2024 Arlene Joy Nacion. All rights reserved.</Text>
+      </View>
+
     </ScrollView>
   );
 }
@@ -244,6 +247,16 @@ const styles = StyleSheet.create({
   },
   memberPosition: {
     fontSize: 16,
+    color: '#555',
+  },
+  footer: {
+    padding: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 20,
+  },
+  footerText: {
+    fontSize: 12,
     color: '#555',
   },
 });

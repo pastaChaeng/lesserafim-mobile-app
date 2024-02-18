@@ -4,7 +4,7 @@
     "slug": "lesserafim-mobile-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "https://i.pinimg.com/564x/c6/0d/06/c60d0630ce1a238ef29230d9621c9564.jpg",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "https://i.pinimg.com/564x/c6/0d/06/c60d0630ce1a238ef29230d9621c9564.jpg",
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "https://i.pinimg.com/564x/c6/0d/06/c60d0630ce1a238ef29230d9621c9564.jpg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.arelean.lesserafimmobileapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "https://i.pinimg.com/564x/c6/0d/06/c60d0630ce1a238ef29230d9621c9564.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "38c7e0ae-7937-45a8-8580-63979aed42aa"
+      }
     }
   }
 }
